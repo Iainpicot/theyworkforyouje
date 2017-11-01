@@ -14,7 +14,7 @@ class PoliticiansController < ApplicationController
 
 
 
-
+## given up for now :) 
 @vot =  Vote.where(:member_name == @politician.full_name)
 
 
