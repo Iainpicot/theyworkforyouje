@@ -5,11 +5,19 @@ class PoliticiansController < ApplicationController
   # GET /politicians.json
   def index
     @politicians = Politician.all
+
   end
 
   # GET /politicians/1
   # GET /politicians/1.json
   def show
+
+
+
+
+@vot =  Vote.where(:member_name == @politician.full_name)
+
+
   end
 
   # GET /politicians/new

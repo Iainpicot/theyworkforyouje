@@ -1,3 +1,3 @@
 class Office < ApplicationRecord
-#  has_many :terms
+  has_many :terms
 end

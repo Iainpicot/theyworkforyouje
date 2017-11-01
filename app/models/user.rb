@@ -4,6 +4,6 @@ class User < ApplicationRecord
   devise :database_authenticatable,
          :recoverable, :rememberable, :trackable, :validatable
 
- # has_many :notices
-#  belongs_to :role
+  has_many :notices
+  belongs_to :role
 end

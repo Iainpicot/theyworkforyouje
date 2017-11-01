@@ -53,7 +53,7 @@ ActiveRecord::Schema.define(version: 20171030172315) do
     t.string "parish"
     t.string "landline"
     t.string "email"
-    t.index ["parish_id"], name: "fk_rails_a52db85833"
+    t.index ["parish_id"], name: "fk_rails_3acf0946b4"
   end
 
   create_table "propositions", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
